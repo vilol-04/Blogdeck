@@ -1,0 +1,203 @@
+/* Add a black background color to the top navigation */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@200&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    height: 50px;
+}
+
+.topnav-bottom{ 
+height: 55px;
+background-color: #D9D9D9;
+display:flex;
+flex-wrap: wrap;
+}
+
+.btn{
+  margin-top: -5px;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+.a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+.bpub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    cursor: pointer;
+    width: 104px;
+    height: 27px;
+    background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border-radius: 12px;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #606060;
+    text-shadow: 0 1px #fff;
+  }
+  
+  .save{
+    margin-left: 20px;
+    border-radius: 5px;
+  }
+  button:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+  }
+  
+  button:active {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  
+  button:focus {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+
+
+
+
+  *{
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .menu{
+    margin-top: 50px;
+  }
+
+  .item {
+    position: relative;
+    cursor: pointer;
+  }
+  .item span{
+    padding: 5px 30px;
+    display: inline-block;
+  }
+  /* .item span: hover{
+    background: #D9D9D9;
+    transition: 0.3s ease;
+  } */
+  .dropdown{
+    position: absolute;
+    transition: 0.3s ease;
+    float: right;
+    margin-top: 10px;
+  }
+  .sub-menu{
+    list-style: none;
+    background-color: #D9D9D9;
+    display: none;
+  }
+  .sub-item{
+    padding-left: 40px;
+  }
+  .rotate{
+    transform: rotate(90deg);
+  }
+  .content{
+    
+  width: 300px;
+  border: 15px ;
+  padding: 50px;
+  margin: 20px;
+  }
+
+  .btn1{
+    margin-right: 10px;
+  }
+
+
+  .bg-image {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    margin: 20px 0px 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+   h1{
+    font-family: 'Kaushan Script', cursive;
+   }
+  
+   .about{
+    background: #FF7F50;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+   }
+
+   .abt-text{
+    padding-top: 20px;
+   }
+   .blog{
+    text-align: center;
+    background: #000080;
+   }
+   .card-deck{
+    padding: 40px;
+   }
+   a:link{
+     color: black;
+   }
+   
+   a.nav-item:link{
+    color: white;
+   }
+   
+   .divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.vh-100{
+  padding-top: 100px;
+}
+.view-more{
+  margin-bottom:20px;
+}
+.text{
+  font-size: 20px;
+  padding-top: 20px;
+}
